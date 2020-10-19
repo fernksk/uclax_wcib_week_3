@@ -96,3 +96,11 @@ body {
     width: 64px;
     height: 64px;
     margin: 5px; }
+  body .zoom {
+    transition: transform .2s;
+    float: left;
+    width: 70px;
+    height: 70px;
+    margin: 0; }
+  body .zoom:hover {
+    transform: scale(1.5); }

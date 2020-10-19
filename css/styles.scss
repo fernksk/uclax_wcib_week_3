@@ -137,4 +137,16 @@ body {
   margin:5px;
 	}
 
+	.zoom {
+	transition: transform .2s;
+	float:left;
+  width: 70px;
+  height: 70px;
+	margin: 0;
+	}
+
+	.zoom:hover {
+	transform: scale(1.5);
+	}
+
 }
