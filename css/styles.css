@@ -1,0 +1,98 @@
+body {
+  background: #eef2f5;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 50px;
+  margin-left: 0;
+  margin-right: 0;
+  font-size: 60px; }
+  body * {
+    box-sizing: border-box; }
+  body .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 100px;
+    border: 2px solid #edf6ff; }
+  body .row:after {
+    content: "";
+    display: table;
+    clear: both; }
+  body hr.solid {
+    border-top: 1px solid #d6d1ce; }
+  body .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%; }
+  body .box {
+    width: auto;
+    height: 320px;
+    overflow-y: scroll; }
+  body .main-header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0; }
+  body .main-content {
+    min-height: 1000px; }
+  body h1 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-bottom: 50px;
+    font-size: 33px; }
+  body h2 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin-left: 22%;
+    margin-right: 22%;
+    margin-bottom: 40px;
+    font-size: 25px; }
+  body h3 {
+    font-family: 'Playfair Display', serif;
+    color: #b1a6a4;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 22%;
+    margin-top: 10%;
+    margin-bottom: 20px;
+    font-size: 25px; }
+  body p {
+    font-family: 'Slabo 27px', serif;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 25px; }
+  body p.c {
+    font-style: oblique;
+    color: #b1a6a4;
+    text-align: right;
+    width: 100%; }
+  body ul {
+    font-family: 'Slabo 27px', serif;
+    list-style-type: disc;
+    width: auto;
+    font-size: 25px; }
+  body li.hr {
+    border-bottom: 2px solid #d6d1ce;
+    margin-bottom: 20px; }
+  body a:link {
+    color: #b1a6a4; }
+  body a:hover {
+    color: #f0be60; }
+  body a:visited {
+    color: #413f3d; }
+  body img {
+    width: 100%;
+    margin: auto;
+    display: block;
+    border-radius: 0; }
+  body .icons {
+    float: left;
+    width: 64px;
+    height: 64px;
+    margin: 5px; }
